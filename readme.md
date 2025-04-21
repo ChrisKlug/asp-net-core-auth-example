@@ -2,7 +2,7 @@
 
 This repo contains some sample code to try and explain a "problem" that I have with the ASP.NET Core authentication system when it comes to integration testing
 
-## Problem
+## The "issue"
 
 The issue is that I would expect it to be possible to remove an authentication handler in `ConfigureTestServices`, before the app was actually created. Something like
 
